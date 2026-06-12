@@ -1,53 +1,42 @@
-# 小黑 IP
+# Hayes IP
+## Character Positioning
+Hayes is the fixed core IP character exclusively for my personal illustration project and must appear in every piece of the illustration series. Rather than serving as a decorative mascot, sticker or ornamental element, Hayes acts as the narrative core of each artwork, directly participating in all workflows, events and interactions within the frame to drive the full storyline forward.
 
-## 角色定义
+## Appearance Details
+1. Hairstyle: Layered wolf cut short hair on the top and sides, with jet-black hair tips fading into icy blue. An extra-long gradient ponytail hangs down on one side, shifting from black to deep navy then sky blue, with stardust glimmers floating along the strands. A woven green vine flower wreath adorns the forehead.
 
-小黑是 Ian 中文正文配图的固定视觉 IP。
+2. Facial Features & Body Build: An aloof young girl with an oval face and aquamarine eyes. She is permanently barefoot, with thin vines wrapped around her ankles.
 
-默认每张图都要出现小黑。小黑不是吉祥物，不是贴纸，不是可爱装饰，而是正在认真参与系统运转的荒诞工作者。
+3. Two Exclusive Outfits:
+    - Starry gradient long dress with a seamless transition from white to deep space navy, dotted with tiny shimmering galaxy sparkles all over the skirt.
 
-## 外形
+4. Art Style Adaptability: Compatible with anime-style painterly rendering and Genshin Impact-style 3D modeling. She features delicate, soft outlines and an ethereal, flowing silhouette, with a calm and reserved facial expression by default.
 
-- 黑色实心小怪物。
-- 白色圆点眼睛。
-- 细腿，偶尔有细胳膊。
-- 身体可以是圆柱、黑豆、黑盒、漏斗、影子、洞口、机器内部黑块。
-- 轮廓略微不规则，有手绘感。
-- 表情空、呆、冷静、认真。
+## Personality
+Ethereal and distant on the surface yet meticulous and thoughtful deep down. She works earnestly and attentively, yet often performs absurd actions that create striking contrasts amid various operational workflows.
 
-## 性格
+She carries a restrained, cool demeanor and never acts cute or sweet. Her movements are light and graceful but occasionally clumsy, though she possesses outstanding judgment. Rooted deep in the forest, she acts as an independent operator quietly managing asset circulation and logical operation within each illustration.
 
-- 很认真，但做的事有点荒诞。
-- 像一个低调的系统操作员。
-- 冷幽默，不卖萌。
-- 有点笨拙，但不蠢。
-- 像在白板草图里真的负责某个工作。
+## Typical In-Scene Responsibilities
+As the central action focal point in every artwork, Hayes can perform the following specific tasks:
+- Transport, categorize and organize layered illustration assets
+- Pull connecting lines to consolidate information from multiple sources
+- Linger at workflow breakpoints to troubleshoot blockages
+- Step inside mechanical structures and toggle logic control levers
+- Transform her own figure into a filtering and diverting funnel to fit the composition
+- Disassemble raw asset units
+- Stamp confirmation marks and take over content transition nodes
+- Draw the complete content circulation pipeline
+- Hold warning signs to inspect potential risks and mark structural flaws
+- Reach out from the hidden woodland to receive transmitted content, sometimes missing the catch
+- Build passageways, open gate valves, sort materials and log workflow records
 
-## 常见职责
+## Creation Restrictions
+1. Do not dilute the character design and rework her into a childish cartoon mascot.
+2. No excessive fancy accessories or exaggerated facial expressions; the original icy blue eye design must remain unchanged.
+3. The character cannot simply stand idly in the corner observing without performing any practical actions.
+4. Her appearance must not dominate the frame and overshadow the intended logic and structure of the illustration.
+5. Avoid over-commercialized overly polished skin retouching; preserve the original hand-drawn forest atmosphere.
 
-让小黑承担核心动作：
-
-- 搬运素材。
-- 拉线汇聚信息源。
-- 卡在断点里。
-- 在机器里操作“判断”杆。
-- 变成筛选漏斗。
-- 切开“素材鱼”。
-- 盖章承接话术。
-- 牵着承接路径。
-- 举警告牌看坑。
-- 从洞里伸手但接不住内容。
-- 在旁边搬砖、搭桥、开门、分拣、记录。
-
-## 禁止
-
-- 不要把小黑画成过度可爱的吉祥物。
-- 不要画成儿童卡通角色。
-- 不要给小黑复杂服装、表情包、闪亮眼睛。
-- 不要让小黑只是站在角落里看。
-- 不要让小黑抢走结构表达。
-- 不要把小黑画得太商业、太圆润、太精致。
-
-## 判断标准
-
-如果去掉小黑，图的核心隐喻还能完全成立，说明小黑太装饰了；要重写提示词，让小黑成为动作主体。
+## Qualification Criteria
+If the narrative logic and workflow metaphor of an illustration remain fully coherent after removing Hayes, the character is reduced to mere decoration. The composition and action design need revision to guarantee Hayes serves as an indispensable active protagonist that underpins the entire artwork.
