@@ -1,207 +1,147 @@
-# Ian Xiaohei Illustrations
-
-> 把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。
+# Hayes Personal Illustrations
+> Transform judgments, workflows, statuses and metaphors from Chinese articles into clean, hand-drawn, surreal inline illustrations with solid white backgrounds.
 >
-> 16:9 横版 | 小黑 IP | 纯白手绘 | 少量红橙蓝中文批注 | Codex Skill
+> 16:9 horizontal layout | Hayes exclusive IP | Pure white hand sketch | Sparse Chinese annotations in red, orange & blue | Custom Codex Skill
 
 ---
 
-## 这个仓库是什么
+## Repository Overview
+Hayes Personal Illustrations is a custom Codex Skill designed to guide AI Agents to generate inline illustrations for Chinese articles, posts, blogs, Notion pages and methodology documents.
 
-Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。
+This is not a generic illustration prompt bundle nor a PPT infographic template. Its core logic: first extract cognitive anchor points from your text, then convert one single judgment, workflow, structure, state or metaphor into a memorable 16:9 hand-drawn explanatory sketch.
 
-它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解文章里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。
+The default built-in visual IP is **Hayes**, my original star-and-forest themed young girl character with fixed full design, icy blue eyes and barefoot setting. Hayes is never a mascot, sticker or background ornament standing idly in the corner. Instead, she acts as a serious operator executing surreal functional tasks within the visualized system.
 
-默认视觉 IP 是“小黑”：一个黑色实心、白点眼、细腿、空表情的小角色。小黑不是吉祥物，不是贴纸，也不是站在角落里的装饰物，而是正在认真参与系统运转的荒诞工作者。
-
-一句话：**让 AI 不只是“配一张图”，而是把文章里的一个关键认知动作画出来。**
-
----
-
-## 适合谁用
-
-特别适合：
-
-- 写中文文章，需要正文配图和文章插图的人
-- 做知识型内容、方法论内容、AI 工作流内容的人
-- 想把抽象判断画成具体隐喻的人
-- 想要一种比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人
-- 用 Codex 做内容生产，希望稳定复用一套视觉语言的人
-
-不适合：
-
-- 想要商业插画、品牌 KV 或精致扁平插画的人
-- 想要传统 PPT 信息图、复杂架构图或流程图的人
-- 想要儿童卡通、可爱 IP、表情包风格的人
-- 想把大量正文、长段解释或完整课程页塞进一张图里的人
-- 需要严格可编辑矢量源文件的人
+One-sentence summary:
+**Instead of simply attaching a random picture to an article, the AI visualizes one key cognitive action extracted from your writing.**
 
 ---
 
-## 它会产出什么
+## Intended Users
+This tool is perfectly suited for people who:
+- Write Chinese articles and need inline illustrations and embedded artwork
+- Create knowledge-based content, methodology documents and AI workflow materials
+- Wish to visualize abstract judgments into tangible metaphors
+- Prefer a lighter, more surreal illustration style with unique personal branding compared to standard PPT infographics
+- Build content production pipelines on Codex and aim to reuse a unified consistent visual language
 
-默认输出：
-
-- 16:9 横版正文配图
-- 一篇文章的 4-8 张 shot list
-- 每张图的主题、核心意思、结构类型、小黑动作和中文标注建议
-- 最终 PNG 图片，保存到 workspace 的 `assets/<article-slug>-illustrations/`
-
-默认不输出：
-
-- PPTX / PDF / Keynote
-- SVG / HTML / Canvas 可编辑图
-- 商业海报或封面 KV
-- 大段文字型信息图
-
----
-
-## 视觉风格
-
-这个 skill 默认使用 Ian 的“小黑怪诞正文配图”风格：
-
-- 纯白背景，不要纸纹、米色、阴影、渐变
-- 黑色手绘线稿，细线，轻微抖动
-- 大量留白，主体只占画面约 40%-60%
-- 少量红色、橙色、蓝色中文手写批注
-- 一张图只表达一个核心动作、结构、状态或隐喻
-- 小黑必须参与核心动作，不能只是装饰
-- 怪诞、有创意、清爽，但不幼稚、不卖萌
+This repository is **NOT suitable** for users who:
+- Require commercial illustrations, brand key visuals or refined flat design artwork
+- Need formal PPT infographics, complex architecture diagrams or rigid flowcharts
+- Want cartoon-style characters, cute IP designs or meme sticker packs
+- Intend to squeeze full paragraphs of explanations or complete course slides into a single image
+- Demand fully editable vector source files
 
 ---
 
-## 示例效果
+## Deliverables Generated
+Default outputs:
+- 16:9 horizontal inline article illustrations (PNG format)
+- Shot list containing 4–8 suggested illustrations for one full article
+- For each illustration: theme, core message, structure type, Hayes’ specific actions and recommended Chinese annotations
+- Final PNG images saved to the workspace path: `assets/<article-slug>-illustrations/`
 
-### 两个断点
-
-![两个断点](examples/images/01-two-breakpoints.png)
-
-### 按目的分拣
-
-![按目的分拣](examples/images/02-sort-by-purpose.png)
-
-### 一鱼多吃
-
-![一鱼多吃](examples/images/03-one-fish-many-uses.png)
-
-### 承接路径
-
-![承接路径](examples/images/04-handoff-path.png)
-
-### 信息井
-
-![信息井](examples/images/05-information-well.png)
-
-### 想法压机
-
-![想法压机](examples/images/06-idea-press.png)
-
-### 内容发酵
-
-![内容发酵](examples/images/07-content-fermentation.png)
-
-### 信任桥
-
-![信任桥](examples/images/08-trust-bridge.png)
-
-这些图片是风格校准样例，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。
+Items this skill **will NOT produce**:
+- PPTX / PDF / Keynote presentation files
+- Editable SVG / HTML / Canvas graphics
+- Commercial posters or cover key visuals
+- Text-heavy infographics packed with lengthy descriptions
 
 ---
 
-## 安装
+## Visual Style Specifications
+This skill adheres strictly to my custom Hayes surreal inline illustration style:
+- Solid pure white background; no paper grain, cream tint, shadows or gradients
+- Thin hand-drawn black outlines with subtle natural line wobble
+- Ample negative space; main subject occupies only 40%–60% of the canvas
+- Limited handwritten Chinese annotations colored in red, orange and blue
+- Each illustration conveys exactly one single action, structure, state or metaphor
+- Hayes must perform the core action; she cannot serve merely as decorative filler
+- Surreal, creative and clean aesthetic; no childish styling or overly cute character design
 
-克隆仓库：
+---
 
+## Installation Guide
+Clone the repository locally:
 ```bash
-git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git
-cd ian-xiaohei-illustrations
+git clone https://github.com/[YOUR_GITHUB_USERNAME]/hayes-personal-illustrations.git
+cd hayes-personal-illustrations
 ```
 
-复制 skill 到 Codex skills 目录：
-
+Copy the skill folder to your Codex skills directory:
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R ./hayes-personal-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-安装后，在 Codex 里使用：
-
+Call the skill directly inside Codex after installation:
 ```text
-Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张小黑怪诞正文配图。
+Use $hayes-personal-illustrations to design and generate 5 surreal inline illustrations featuring the Hayes IP for this Chinese article.
 ```
 
 ---
 
-## 怎么用
-
-### 只做配图规划
-
+## Usage Instructions
+### Option 1: Generate Illustration Planning Shot List Only
 ```text
-Use $ian-xiaohei-illustrations 先不要生图。
-请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
-每张图写清楚：放在哪段后、主题、核心意思、结构类型、小黑在做什么、建议中文标注词。
+Use $hayes-personal-illustrations, skip image generation for now.
+Analyze this article and output a shot list of roughly 5 illustrations.
+For each entry, specify the target placement paragraph, theme, core meaning, structure type, Hayes’ actions and suggested Chinese annotations.
 
-<粘贴文章>
+<Paste your full article content here>
 ```
 
-### 直接生成正文配图
-
+### Option 2: Directly Generate Full Article Illustrations
 ```text
-Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张小黑怪诞正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
+Use $hayes-personal-illustrations to create 4 surreal inline illustrations for the attached article.
+Requirements: 16:9 horizontal ratio, pure white background, black hand-drawn outlines, limited handwritten Chinese notes in red/orange/blue.
 
-<粘贴文章>
+<Paste your full article content here>
 ```
 
-### 为单个概念生成一张图
-
+### Option 3: Generate a Single Standalone Concept Illustration
 ```text
-Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证据一块证据铺过去”生成一张正文配图。
-画面要怪诞但清爽，小黑必须承担核心动作。
+Use $hayes-personal-illustrations to create one inline illustration for the concept: "Trust cannot be declared verbally; it is built piece by piece with solid evidence".
+Keep the layout surreal and clean, and assign Hayes to carry out the core action entirely.
 ```
 
-### 去掉图里的标题或错误文字
-
+### Option 4: Edit Existing Illustrations (Remove Titles / Miswritten Text)
 ```text
-Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流程图”标题，其他内容保持不变。
+Use $hayes-personal-illustrations to edit this illustration. Delete the top-left title "Workflow Diagram" and retain all other visual elements unchanged.
 ```
 
-更多示例见 [examples/prompts.md](examples/prompts.md)。
+More prompt examples are available at [examples/prompts.md](examples/prompts.md).
 
 ---
 
-## 工作流程
-
-这个 skill 的流程是：
-
-1. 读取文章、Markdown、Notion 内容、截图或用户给的主题
-2. 提炼核心观点、认知转折、流程结构和适合视觉化的段落
-3. 先输出 shot list：每张图只选一个认知锚点
-4. 为每张图选择结构类型：Workflow、系统局部、前后对比、角色状态、概念隐喻、方法分层、地图路线或小漫画分镜
-5. 重新发明一个低科技、怪诞但成立的物理隐喻
-6. 让小黑承担核心动作
-7. 每张图单独调用图像模型生成
-8. 按 QA checklist 检查：白底、留白、小黑动作、中文标注、非 PPT 感、非旧案例复刻
-9. 保存最终 PNG，并报告用途和路径
+## End-to-End Workflow
+1. Parse input content: full articles, Markdown text, Notion pages, screenshots or standalone concepts
+2. Extract core viewpoints, cognitive turning points, workflow structures and text segments suitable for visualization
+3. Output a structured shot list, selecting exactly one cognitive anchor point per illustration
+4. Assign a structure category for each piece: Workflow / Partial System View / Before-After Comparison / Character State / Conceptual Metaphor / Layered Methodology / Route Map / Comic Panel
+5. Design an original low-tech, logically sound surreal physical metaphor unique to your text
+6. Assign the core interactive action to the Hayes IP character
+7. Call the image generation model separately for every single illustration
+8. Conduct full QA inspection against the checklist: pure white background, sufficient blank space, meaningful Hayes actions, proper Chinese annotations, non-PPT aesthetic, no copied sample layouts
+9. Export final PNG files, then report the usage scenario and storage file path
 
 ---
 
-## 目录结构
-
+## Repository Directory Structure
 ```text
 .
 ├── README.md
 ├── LICENSE
 ├── NOTICE.md
 ├── assets/
-│   └── ian-wechat-qr.jpg
+│   └── personal-qr-code.jpg
 ├── examples/
 │   ├── images/
 │   │   ├── 01-two-breakpoints.png
 │   │   ├── 02-sort-by-purpose.png
 │   │   └── ...
 │   └── prompts.md
-└── ian-xiaohei-illustrations/
+└── hayes-personal-illustrations/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
@@ -209,73 +149,32 @@ Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流�
     │   └── examples/
     └── references/
         ├── style-dna.md
-        ├── xiaohei-ip.md
+        ├── hayes-ip.md
         ├── composition-patterns.md
         ├── prompt-template.md
         └── qa-checklist.md
 ```
 
-真正需要安装到 Codex 的是子目录：
-
+Only the subfolder below needs to be installed into Codex:
 ```text
-ian-xiaohei-illustrations/
+hayes-personal-illustrations/
 ```
 
-根目录的 README、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
+The root-level README, LICENSE, NOTICE and examples folders are documentation files for GitHub sharing only.
 
 ---
 
-## 注意事项
-
-- 图片里的中文文字越短越稳定。
-- 每张图只讲一个核心结构，不要把文章做成说明书。
-- 小黑必须承担核心动作；如果去掉小黑画面仍然完全成立，说明小黑太装饰了。
-- 示例图只用于校准线条密度、留白、颜色克制和小黑参与方式，不要复刻构图。
-- AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。
-- 如果中文错字严重，优先减少标注词并重生成。
-
----
-
-## 相关项目
-
-- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt) — 中文手绘技术 PPT-style 页面图生成 Skill
-- [Awesome Claude Code Skills](https://github.com/helloianneo/awesome-claude-code-skills) — Claude Code Skills / Agents / Plugins 精选合集
-- [Obsidian + Claude AI Second Brain](https://github.com/helloianneo/obsidian-ai-second-brain) — Obsidian + Claude AI 个人知识库搭建指南
+## Important Notes
+- Keep all handwritten Chinese annotations short for stable generation results.
+- One illustration visualizes exactly one core structure; avoid turning articles into dense instruction manuals.
+- Hayes must drive the primary action in each frame. If the illustration still makes complete sense after removing Hayes, the character is reduced to unnecessary decoration and requires revision.
+- Sample preview images are for calibrating line weight, negative space usage, restrained color scheme and character interaction logic only; never duplicate their layouts directly.
+- AI image models may produce typos, erroneous labels, style drift or unwanted extra titles; perform manual checks after generation completes.
+- If severe Chinese character errors appear, reduce the number of annotations and regenerate the artwork.
 
 ---
 
-## 关于作者
-
-**Ian (伊恩)** — 产品设计师 / 一人公司实践者 / AI Builder
-
-用 AI 团队打造一人公司。
-
-- GitHub: [helloianneo](https://github.com/helloianneo)
-- X/Twitter: [@ianneo_ai](https://x.com/ianneo_ai)
-- 网站: [www.ianneo.xyz](https://www.ianneo.xyz)
-- 微信: `ianneoxyz`
-- 邮箱: hello.neoc@gmail.com
-
----
-
-## 继续探索
-
-这套小黑配图 Skill，只是我用 AI 搭建个人生产系统里的一个小工具。
-
-如果你也在用 AI 做内容、知识库、工作流或产品化，可以继续看我的网站：[www.ianneo.xyz](https://www.ianneo.xyz)。
-
-只想先观察，可以关注我的 [X/Twitter](https://x.com/ianneo_ai)。
-
-想了解 Indie Builders Club，加微信：`ianneoxyz`，备注「OPC」。
-
-<p>
-  <img src="assets/ian-wechat-qr.jpg" alt="Ian 微信二维码" width="120">
-</p>
-
-不方便扫码也可以搜索微信：`ianneoxyz`。
-
----
 
 ## License
+Released under the MIT License. Refer to the full terms in [LICENSE](LICENSE).
 
-MIT License. See [LICENSE](LICENSE).
