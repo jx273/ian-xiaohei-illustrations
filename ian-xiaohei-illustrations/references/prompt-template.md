@@ -1,51 +1,47 @@
-# 生图提示词模板
-
-每张图单独生成。根据正文内容替换变量，不要把多张图拼在一起。
+# Image Generation Prompt Template
+Generate each illustration individually. Replace placeholder variables according to the article content; do not combine multiple illustrations into one single canvas.
 
 ```text
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal illustration for my article.
 
 Visual DNA:
-Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
+Pure solid white background. Minimalist black hand-drawn linework with naturally shaky strokes. Large area of negative white space. Scattered handwritten Chinese annotations in red, orange and blue. Distinct surreal product sketch aesthetic. No gradients, shadows, paper textures or elaborate backgrounds; exclude commercial vector art, PPT infographics, cute mascot posters, children’s illustrations and realistic UI interfaces entirely.
 
-Recurring IP character required:
-小黑, a small solid-black absurd creature with white dot eyes, tiny thin legs, blank serious expression, slightly uneven hand-drawn body shape. 小黑 must perform the core conceptual action, not decorate the scene. Make 小黑 serious, deadpan, and slightly bizarre, not cute.
+Mandatory recurring IP character:
+Hayes, my exclusive forest-star themed girl IP with fixed full character design, icy blue eyes and barefoot setting. Hayes must execute the core conceptual action and serve as the narrative backbone, rather than acting as a passive scene decoration. Keep her expression calm and focused with subtle surreal undertones; never render her in a cute or sweet style.
 
 Theme:
-{正文配图主题}
+{Illustration theme matched to article content}
 
 Structure type:
-{结构类型：Workflow / 系统局部 / 前后对比 / 角色状态 / 概念隐喻 / 方法分层 / 地图路线 / 小漫画分镜}
+{Structure type options: Workflow / Partial system view / Before-and-after comparison / Character state / Conceptual metaphor / Layered methodology / Route map / Comic panel layout}
 
 Core idea:
-{这张图要表达的核心意思}
+{Central message and concept this illustration intends to convey}
 
-Composition:
-{具体画面：小黑在哪里、正在做什么、主要物件是什么、信息如何流动}
+Composition details:
+{Detailed scene layout: Hayes’ position, specific actions she is carrying out, key objects included, and the flow logic of information transmission}
 
 Suggested elements:
-{元素1} / {元素2} / {元素3} / {元素4}
+{Element 1} / {Element 2} / {Element 3} / {Element 4}
 
 Chinese handwritten labels:
-{标注词1} / {标注词2} / {标注词3} / {标注词4} / {可选标注词5}
+{Annotation 1} / {Annotation 2} / {Annotation 3} / {Annotation 4} / {Optional Annotation 5}
 
-Color use:
-Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
+Color rules:
+Black applies to main outline lines and Hayes’ figure. Orange for primary workflows, connecting paths and directional arrows. Red reserved solely for critical warnings, existing issues and final results. Blue only used for supplementary remarks, feedback content or system runtime status.
 
 Constraints:
-One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
+One illustration shall interpret exactly one single core structure. The main visual subject occupies 40%–60% of the whole frame, with a minimum 35% blank white space retained. Limit handwritten Chinese annotations to 5–8 short entries at maximum. Do not place any title text in the top-left corner, nor mark the structure type directly on the artwork. Avoid formal flowcharts, tutorial slides or overcrowded explanatory graphics. Do not duplicate old compositions or reference existing cases unless specially instructed; design an original visual metaphor tailored for this article segment. The artwork shall be intelligible without reading like a rigid instruction manual, creative without childish styling, and surreal while maintaining a neat layout.
 ```
 
-## 图像编辑提示
-
-去掉左上角标题：
-
+## Image Editing Prompts
+### Remove top-left title
 ```text
-Edit the provided image. Remove only the handwritten title "{要删除的文字}" and its underline from the top-left corner. Fill that area with the same clean white background, matching the surrounding blank paper. Preserve everything else exactly: characters, labels, paths, line style, composition, aspect ratio, and image quality. Do not add any new text or objects.
+Edit the given illustration. Delete only the handwritten title "{Text to delete}" and its underscore located at the top-left corner. Refill the cleared region with identical pure white background consistent with the surrounding blank area. Keep all other components unchanged completely: the IP character Hayes, annotations, flow paths, line drawing style, composition, aspect ratio and original image quality. No extra text or graphic elements shall be added.
 ```
 
-增强怪诞感：
-
+### Boost surreal atmosphere
 ```text
-Regenerate this illustration with the same core meaning and simple layout, but make 小黑 more central to the conceptual action. 小黑 should be doing the strange work that explains the idea, not standing beside the diagram. Keep it clean, sparse, hand-drawn, and not cute.
+Regenerate this illustration while retaining its original core logic and simple layout. Elevate Hayes to the absolute center of the conceptual action, letting her complete the peculiar operational work that interprets the core idea instead of idling beside the schematic diagram. Stick to neat layout, sparse elements and hand-drawn texture; cute styling is forbidden.
 ```
