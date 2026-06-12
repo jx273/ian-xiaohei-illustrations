@@ -1,3 +1,4 @@
+---
 name: hayes-personal-illustrations
 description: Generate article illustrations following my exclusive custom style. Supports creating hand-drawn weird-style inline illustrations, illustration suggestions, shot lists, title removal & image revision for Chinese articles, blog posts, Notion pages, workflow docs, methodology documents, structural diagrams, state visualization, conceptual metaphors and viewpoints. Uses my original Hayes IP by default, pure white hand-drawn line art, limited handwritten notes in red/orange/blue, clean layout with unrestrained imaginative visuals.
 ---
